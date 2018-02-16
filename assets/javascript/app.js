@@ -3,6 +3,9 @@ $(document).ready(function () {
         var countdownTimer = setInterval(function() {
             var seconds = Math.floor((distance % (1000 *60)) / 1000);
         })
+        if (seconds = 0) {
+            alert("Time's up!")
+        }
     });
     $("#results").click(function () {
 
