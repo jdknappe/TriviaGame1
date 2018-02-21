@@ -7,16 +7,15 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" src="style.css/">
-    <script type="text/javascript" src="./assets/javascript/app.js"></script>
     <title>Trivia Game!</title> 
 </head>
 <body>
     <!-- Jumbotron -->
     <div class="jumbotron text-center">
         <h1>It's Trivia Time!!</h1><br>
-        <p>Welcome to my trivia game! In the span of 60 seconds, answer the questions as fast as possible. Click the button at the bottom to reveal the correct answers. Good luck!</p><br>
+        <p>Welcome to my trivia game! In the span of 45 seconds, answer the questions as fast as possible. Click the button at the bottom to reveal the correct answers. Good luck!</p><br>
         <button type="button" id="start-button" class="btn btn-primary btn-lg btn-block">Let's do this.</button>
-        <div id="display">60:00</div>
+        <div id="display">45</div>
     </div>
     <!-- Quiz portion -->
     <div class="container">
@@ -212,11 +211,9 @@
         </div>
         <!-- Finish button -->
             <button type="button" id="results" class="btn btn-success btn-lg btn-block">Show my answers!</button><br>
-    <!-- Footer -->
-    <footer>
-        <p>Copyright &copy Jeremy Knappe 2018</p>
-    </footer>
+
     <!-- jQuery script CDN -->
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../assets/javascript/app.js"></script>
 </body>
 </html>
