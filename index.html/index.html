@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" src="style.css/">
+    <link rel="stylesheet" type="text/css" src="../assets/css/style.css/">
     <title>Trivia Game!</title> 
 </head>
 <body>
@@ -20,8 +20,8 @@
     <!-- Quiz portion -->
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">1. What is the timespan of 1000 years?</p>
+            <div id="question1" class="col-md-12">
+                <p  class="question">1. What is the timespan of 1000 years?</p>
                 <ul class="answers">
                     <input type="radio" name="q1" value="a" id="q1a">
                     <label for="q1a">Millenia</label>
@@ -36,11 +36,14 @@
                     <label for="q1d">Millenial</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    1
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">2. How many colors are there in a rainbow?</p>
+            <div id="question2" class="col-md-12">
+                <p  class="question">2. How many colors are there in a rainbow?</p>
                 <ul class="answers">
                     <input type="radio" name="q2" value="a" id="q2a">
                     <label for="q2a">7</label>
@@ -55,11 +58,14 @@
                     <label for="q2d">8</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    0
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">3. Who composed the music for the ballets <i>Sleeping Beauty</i> and <i>Swan Lake</i>?</p>
+            <div id="question3" class="col-md-12">
+                <p  class="question">3. Who composed the music for the ballets <i>Sleeping Beauty</i> and <i>Swan Lake</i>?</p>
                 <ul class="answers">
                     <input type="radio" name="q3" value="a" id="q3a">
                     <label for="q3a">Antonín Dvořák</label>
@@ -74,11 +80,14 @@
                     <label for="q3d">Pyotr Ilyich Tchaikovsky</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    3
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">4. What is Che Guevara's nationality?</p>
+            <div id="question4" class="col-md-12">
+                <p  class="question">4. What is Che Guevara's nationality?</p>
                 <ul class="answers">
                     <input type="radio" name="q4" value="a" id="q4a">
                     <label for="q4a">Colombian</label>
@@ -93,11 +102,14 @@
                     <label for="q4d">Brazilian</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    1
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">5. Who invented the jet engine?</p>
+            <div id="question5" class="col-md-12">
+                <p  class="question">5. Who invented the jet engine?</p>
                 <ul class="answers">
                     <input type="radio" name="q5" value="a" id="q5a">
                     <label for="q5a">Robbert H. Goddard</label>
@@ -112,11 +124,14 @@
                     <label for="q5d">Qian Xuesen</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    2
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">6. What sort of animals feature in the children's book, <i>Watership Down</i>?</p>
+            <div id="question6" class="col-md-12">
+                <p  class="question">6. What sort of animals feature in the children's book, <i>Watership Down</i>?</p>
                 <ul class="answers">
                     <input type="radio" name="q6" value="a" id="q6a">
                     <label for="q6a">Mice</label>
@@ -131,11 +146,14 @@
                     <label for="q6d">Birds</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    1
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">7. Before pirates used it, whose ships flew the skull and cross-bones flag?</p>
+            <div id="question7" class="col-md-12">
+                <p  class="question">7. Before pirates used it, whose ships flew the skull and cross-bones flag?</p>
                 <ul class="answers">
                     <input type="radio" name="q7" value="a" id="q7a">
                     <label for="q7a">The Knights of Malta</label>
@@ -150,11 +168,14 @@
                     <label for="q7d">The Memento Mori</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    1
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">8. What is rum distilled from?</p>
+            <div id="question8" class="col-md-12">
+                <p  class="question">8. What is rum distilled from?</p>
                 <ul class="answers">
                     <input type="radio" name="q8" value="a" id="q8a">
                     <label for="q8a">Sugar cane</label>
@@ -169,11 +190,14 @@
                     <label for="q8d">Corn/Maize</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    0
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">9. What is Usain Bolt's recorded top speed?</p>
+            <div id="question9" class="col-md-12">
+                <p  class="question">9. What is Usain Bolt's recorded top speed?</p>
                 <ul class="answers">
                     <input type="radio" name="q9" value="a" id="q9a">
                     <label for="q9a">27.8mph</label>
@@ -188,11 +212,14 @@
                     <label for="q9d">88mph</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    0
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <p class="question">10. Which country features the unicorn as it's national animal?</p>
+            <div id="question10" class="col-md-12">
+                <p  class="question">10. Which country features the unicorn as it's national animal?</p>
                 <ul class="answers">
                     <input type="radio" name="q10" value="a" id="q10a">
                     <label for="q10a">Romania</label>
@@ -207,6 +234,9 @@
                     <label for="q10d">Scotland</label>
                     <br/>
                 </ul>
+                <div class="answerCorrect">
+                    3
+                </div>
             </div>
         </div>
         <!-- Finish button -->
